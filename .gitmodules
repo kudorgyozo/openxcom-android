@@ -15,4 +15,4 @@
 	url = https://github.com/jbeder/yaml-cpp
 [submodule "app/src/main/jni/OpenXcom"]
 	path = app/src/main/jni/OpenXcom
-	url = https://github.com/sfalexrog/OpenXcom
+	url = https://github.com/MeridianOXC/OpenXcom
