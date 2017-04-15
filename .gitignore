@@ -28,6 +28,9 @@ proguard/
 # Log Files
 *.log
 
+#
+app/.externalNativeBuild/
+
 #JNI generated files
 app/src/main/obj/
 app/src/main/libs/
