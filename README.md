@@ -1,6 +1,6 @@
-# OXCE+ for Android
+# OXCE for Android
 
-OXCE+ for Android is, as the name suggests, a port of [OXCE+](https://openxcom.org/forum/index.php/topic,5409.0.html) to the
+OXCE for Android is, as the name suggests, a port of [OXCE](https://openxcom.org/forum/index.php/topic,5251.0.html) to the
 Android platform. In order to achieve this, it uses SDL2 set of libraries, and a portion of Java
 code for some convenient features like auto-updating files after installing new version.
 
@@ -11,10 +11,10 @@ Uses [afiledialog](https://github.com/jfmdev/afiledialog) library.
 
 # Building
 
-In order to build OXCE+ for Android, you'll need:
+In order to build OXCE for Android, you'll need:
 
  - A current Android SDK, and
- - A current Android NDK (tested with r10e).
+ - A current Android NDK (tested with r14b).
 
 Additionally, you'll need Java development kit and Java runtime environment version 1.7 or higher
 (Oracle Java SE 7 or OpenJDK 7), which is required for building Android applications.
@@ -36,7 +36,7 @@ This project uses git submodules, so in order to get the code, you'll have to do
     $ git submodule init
     $ git sibmodule update
 
-3. Since this project uses Android NDK (currently built with r10e), you'll need to provide path
+3. Since this project uses Android NDK (currently built with r14b), you'll need to provide path
 to it. Additionally, you'll have to provide path to Android SDK as well. These paths should be in
 the local.properties file in the project root. The file should contain the following lines:
 
